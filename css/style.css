@@ -1,9 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
 
-*,*:before,*:after {
+/* *,*:before,*:after {
     box-sizing: border-box;
-}
+} */
 
 body{
     margin: 0;
@@ -11,6 +11,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     color: #AE7C78;
+    /* width: 100%; */
 
 }
 
@@ -53,23 +54,21 @@ h5 {
     font-size: 16px;
 }
 
-
-hr.solid {
-    margin: 0;
-    border-top: 1px solid #AE7C78;  
-    border-bottom: 0;  
-}
-
 .container {
     width: 1200px;
     margin: 0 auto;
 }
 
 .header {
+    margin-top: 25px;
     width: 100%;
-    top: 0;
-    left: 0;
     height: 90px;
+    border-bottom: 1px solid #AE7C78;
+    border-top: 1px solid #AE7C78;
+}
+
+.header__wrapper {
+    margin-top: 16px;
 }
 
 .content{
@@ -80,7 +79,6 @@ hr.solid {
 .nav {
     justify-content: space-between;
     text-align-last: justify;
-
 }
 
 .nav__link {
@@ -89,12 +87,9 @@ hr.solid {
     text-decoration: none;
     display: inline-block;
     margin: 22px 0 22px 0;
-
 }
 
 /* шапка end */
-
-
 
 /* main start */
 
@@ -108,7 +103,6 @@ hr.solid {
 
 .section {
     margin-bottom: 100px;
-
 }
 
 .btn {
@@ -177,14 +171,14 @@ hr.solid {
     font-size: 16px;
     margin-top: 8pt;
     width: 285px;
+
 }.info__img img {
     margin-right: 20px;
 }
-
 /* info end */
 
-/* catalog start */
 
+/* catalog start */
 .catalog {
     margin-top: 55px;
 }
@@ -194,7 +188,6 @@ hr.solid {
     justify-content: center;
     margin: 36px auto;
     width: 794px;
-
 }
 
 .catalog__text h4{
@@ -219,11 +212,10 @@ hr.solid {
     font-size: 24px;
     margin: 24px 0 64px;
 }
-
 /* catalog end */
 
-/* sale start */
 
+/* sale start */
 .sale {
     padding: 95px 0;
 }
@@ -249,7 +241,6 @@ hr.solid {
     letter-spacing: 0.02em;
     width: 360px;
     margin: 40px 0 36px;
-    
 }
 
 .sale__left h4{
@@ -261,7 +252,6 @@ hr.solid {
 
 
 /* feedback start */
-
 .feedback {
     margin-bottom: 73px;
 }
@@ -290,11 +280,10 @@ hr.solid {
     font-weight: 500;
     text-align: center;
 }
-
 /* feedback end */
 
-/* footer start */
 
+/* footer start */
 .footer {
     background-color: #AE7C78;
     height: 100px;
@@ -324,7 +313,6 @@ hr.solid {
     text-decoration: none;
     text-align: center;
 }
-
 /* footer end */
 
 a:hover {
