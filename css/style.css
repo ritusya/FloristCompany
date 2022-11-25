@@ -55,11 +55,13 @@ h5 {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .header {
+    /* display: flex;
+    flex-wrap: wrap; */
     margin-top: 25px;
     width: 100%;
     height: 90px;
@@ -94,7 +96,7 @@ h5 {
 /* main start */
 
 .main__right img{
-    height: 420px;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -130,6 +132,7 @@ h5 {
 
 .main__wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 74px;
 }
@@ -157,6 +160,7 @@ h5 {
 
 .info__wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -164,6 +168,7 @@ h5 {
 .info__item {
     width: 33.33%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .info__item-text p {
@@ -185,9 +190,10 @@ h5 {
 
 .catalog__wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 36px auto;
-    width: 794px;
+    max-width: 794px;
 }
 
 .catalog__text h4{
@@ -198,7 +204,7 @@ h5 {
 .catalog p{
     font-weight: 400;
     font-size: 16px;
-    width: 387px;
+    max-width: 387px;
     margin-bottom: 24px;
 }
 
@@ -222,6 +228,7 @@ h5 {
 
 .sale__wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #AE7C78;
     height: 391px;
@@ -239,14 +246,14 @@ h5 {
 .sale__left h1 {
     color: white;
     letter-spacing: 0.02em;
-    width: 360px;
+    max-width: 360px;
     margin: 40px 0 36px;
 }
 
 .sale__left h4{
     color: white;
     font-weight: 400;
-    width: 390px;
+    max-width: 390px;
 }
 /* sale end */
 
@@ -264,15 +271,16 @@ h5 {
 
 .feedback__content {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 40px;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .feedback__text {
     font-weight: 400;
     font-size: 16px;
     text-align: center;
-    width: 300px;
+    max-width: 300px;
 }
 
 
@@ -293,6 +301,7 @@ h5 {
 
 .footer__wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
 }
